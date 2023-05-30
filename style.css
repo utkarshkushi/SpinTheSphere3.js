@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html{
+  overflow-x: hidden;
+  font-family: 'Poppins';
+}
+
+.webgl{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav-bar{
+  color: white;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  display: flex;
+
+}
+
+li{
+  margin-right: 30px;
+}
+
+
+.title{
+  z-index: 2;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
